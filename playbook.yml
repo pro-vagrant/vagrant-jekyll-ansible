@@ -12,7 +12,7 @@
     - name: Install lynx
       apt: name=lynx-cur state=present
 
-    - name: Install lynx
+    - name: Install ruby1.9.1-dev
       apt: name=ruby1.9.1-dev state=present
 
     - name: Install Jekyll
